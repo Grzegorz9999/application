@@ -1,6 +1,8 @@
 from psycopg2 import connect, OperationalError
 from psycopg2.errors import DuplicateDatabase, DuplicateTable
-
+'''script creates new database application_db
+    and tables: users and messages inside
+'''
 USER = "postgres"
 HOST = "localhost"
 PASSWORD = "coderslab"
